@@ -97,3 +97,4 @@ html[data-theme="graphite"] .theme-option:hover,html[data-theme="graphite"] .the
 html[data-theme="graphite"] input,html[data-theme="graphite"] textarea,html[data-theme="graphite"] select{background:#fff;color:#20262c;border-color:#bfc7cd}
 html[data-theme="graphite"] input::placeholder,html[data-theme="graphite"] textarea::placeholder{color:#6b747b;opacity:1}
 html[data-theme="graphite"] .track{background:#d8dde1}
+.history-resume-btn{border:1px solid var(--green);background:color-mix(in srgb,var(--green) 12%,var(--panel));color:var(--text);border-radius:7px;padding:6px 9px;margin-right:6px;font:inherit;font-size:10px;font-weight:700;cursor:pointer}.history-resume-btn:hover{background:color-mix(in srgb,var(--green) 22%,var(--panel))}
