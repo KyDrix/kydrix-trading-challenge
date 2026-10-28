@@ -72,4 +72,3 @@ html[data-theme="mono"] .theme-menu{background:#101010;border-color:#444}html[da
 .brand-icon{width:21px;height:21px;display:block}
 
 
-.timezone-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:0 0 14px;padding:10px 12px;border:1px solid var(--line);border-radius:9px;background:color-mix(in srgb,var(--panel) 82%,transparent)}.timezone-row label{font-size:11px;font-weight:700;color:var(--muted)}.timezone-row select{max-width:min(100%,330px);min-width:210px;padding:8px 10px;border:1px solid var(--line);border-radius:7px;background:var(--bg);color:var(--text);font:inherit;font-size:12px}.timezone-row small{font-size:10px;color:var(--muted);flex:1 1 220px}
