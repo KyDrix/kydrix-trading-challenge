@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="96" viewBox="0 0 420 96" role="img" aria-labelledby="title desc">
+  <title id="title">KyDrix</title>
+  <desc id="desc">KyDrix Trader Development logo, with an ascending market line forming a K.</desc>
+  <g transform="translate(8 8)">
+    <rect width="80" height="80" rx="22" fill="#101713" stroke="#536b45" stroke-width="2"/>
+    <path d="M27 22v52M29 49l29-27M29 49l29 27" fill="none" stroke="#b6f36b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M42 60l10-10 8 5 15-20M64 35h11v11" fill="none" stroke="#f2c867" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="108" y="55" fill="#f4f7f2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="39" font-weight="750" letter-spacing=".2">KyDrix</text>
+  <text x="110" y="77" fill="#91a094" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="3.2">TRADER DEVELOPMENT</text>
+</svg>
