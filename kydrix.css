@@ -72,3 +72,28 @@ html[data-theme="mono"] .theme-menu{background:#101010;border-color:#444}html[da
 .brand-icon{width:21px;height:21px;display:block}
 
 
+
+/* White & Dark Gray: high-contrast text and softer neutral surfaces */
+html[data-theme="graphite"]{color-scheme:light;--bg:#f0f2f4;--panel:#ffffff;--line:#cbd1d6;--muted:#535d66;--text:#20262c;--green:#35414b;--gold:#666e75;--red:#a13e45}
+html[data-theme="graphite"] body{color:var(--text);background:radial-gradient(ellipse at 15% -15%,#e0e4e7 0,transparent 42%),var(--bg)}
+html[data-theme="graphite"] .card,html[data-theme="graphite"] .modal,html[data-theme="graphite"] .theme-menu{color:var(--text)}
+html[data-theme="graphite"] .panel-head p,html[data-theme="graphite"] .subtle,html[data-theme="graphite"] .metric-top,html[data-theme="graphite"] .metric-sub,html[data-theme="graphite"] .progress-meta,html[data-theme="graphite"] .ticks,html[data-theme="graphite"] .field label,html[data-theme="graphite"] .field .hint,html[data-theme="graphite"] .calc-result span,html[data-theme="graphite"] .calc-foot,html[data-theme="graphite"] .day-cell small,html[data-theme="graphite"] .empty,html[data-theme="graphite"] .footer,html[data-theme="graphite"] th,html[data-theme="graphite"] .brand small,html[data-theme="graphite"] .close{color:var(--muted)}
+html[data-theme="graphite"] .date-label strong,html[data-theme="graphite"] td,html[data-theme="graphite"] .day-cell,html[data-theme="graphite"] .row-btn,html[data-theme="graphite"] .close,html[data-theme="graphite"] .theme-option,html[data-theme="graphite"] .modal{color:var(--text)}
+html[data-theme="graphite"] .calc-result{background:#edf0f2;border-color:#cbd1d6}
+html[data-theme="graphite"] .risk-note{background:#eceff1;color:#414a51}
+html[data-theme="graphite"] thead{background:#e6e9ec}
+html[data-theme="graphite"] td,html[data-theme="graphite"] th{border-color:#d4d9dd}
+html[data-theme="graphite"] tbody tr:hover{background:#f0f2f4}
+html[data-theme="graphite"] .status.pending,html[data-theme="graphite"] .status.below-target{background:#e8e9e9;color:#3f464b}
+html[data-theme="graphite"] .status.passed{background:#e2ece5;color:#28573a}
+html[data-theme="graphite"] .status.failed,html[data-theme="graphite"] .status.loss-limit{background:#f3e4e5;color:#8c3038}
+html[data-theme="graphite"] .positive{color:#24643d!important}html[data-theme="graphite"] .negative{color:#a13e45!important}
+html[data-theme="graphite"] .btn.danger{color:#9c3c43}
+html[data-theme="graphite"] .modal{background:#fff;border-color:#cbd1d6;box-shadow:0 24px 70px #20262c33}
+html[data-theme="graphite"] .modal-backdrop{background:#20262c88}
+html[data-theme="graphite"] .close{background:#f0f2f4}
+html[data-theme="graphite"] .theme-menu{background:#fff;border-color:#cbd1d6;box-shadow:0 18px 45px #20262c24}
+html[data-theme="graphite"] .theme-option:hover,html[data-theme="graphite"] .theme-option.active{background:#edf0f2}
+html[data-theme="graphite"] input,html[data-theme="graphite"] textarea,html[data-theme="graphite"] select{background:#fff;color:#20262c;border-color:#bfc7cd}
+html[data-theme="graphite"] input::placeholder,html[data-theme="graphite"] textarea::placeholder{color:#6b747b;opacity:1}
+html[data-theme="graphite"] .track{background:#d8dde1}
